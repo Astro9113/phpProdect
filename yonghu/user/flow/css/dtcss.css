@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;}
+body{margin:0 auto; font-size:12px; font-family:Verdana; line-height:1.5; background:url(../images/dl_bgrund.jpg) top right no-repeat;}
+ul,ol,li,dl,dt,dd,hl,h2,h3,h4,h5,h6,form,p{padding:0; margin:0;}
+ul,ol{list-style:none;}
+img{border:0px;}
+a{color:#333; text-decoration:none;}
+a:hover{color:#f00;}
+#header,#content,#footer{ width:100%;}
+.cls{clear:both;}
+.logo{}
+/*菜单*/
+/* 框架 */
+#b{width:100%;padding:0 12px;background-color:#487811;position:relative}
+/*导航*/
+.menu{height:32px;font-family:"Microsoft Yahei",Tahoma, Geneva, sans-serif;padding-left:15px;_overflow:hidden}
+.menu a{color:#fff;height:16px;line-height:16px;float:left;position:relative}
+.top{background:#487811;position:relative;z-index:2}
+.menu li{font-size:14px;float:left;position:relative;padding:8px 12px;}
+.menu li:hover{background-color:#fff;border:1px solid #629d2a;border-bottom:none;padding:8px 11px}
+.menu li:hover a{color:#357d13}
+.menu li.no_sub:hover{border:1px solid #629d2a;padding:7px 11px}
+.menu ul{width:250px;background-color:#fff;border:1px solid #629d2a;border-top:none;position:absolute;left:-1px;top:-999em;z-index:99999;padding:8px;display:none}
+.menu li:hover ul{top:31px;display:block}
+.menu li:hover ul li{font-size:12px;border:none;width:70px;float:left;padding:4px 0 4px 10px}
+.menu li:hover ul li a{color:#333;text-decoration:none;padding:0}
+.menu li:hover ul li a:hover{text-decoration:underline}
+/*IE6*/
+.menu li.hover{background-color:#fff;border:1px solid #629d2a;border-bottom:none;padding:8px 11px}
+.menu li.hover a{color:#357d13}
+.menu li.hover ul{top:31px;display:block}
+.menu li.hover ul li{border:none;width:70px;float:left;padding:4px 0 4px 10px}
+.menu li.hover ul li a{height:16px;line-height:16px;font-size:12px;color:#333;text-decoration:none;padding:0}
+.menu li.hover ul li a:hover{text-decoration:underline}
+.menu li.no_sub.hover1{border:1px solid #629d2a;padding:7px 11px}
+
+/*菜单结束*/
+.kung{border:1px solid #4e7e13; width:100px; height:25px;}
+.query{margin-top:10px; padding:10px;}
+.query p{ margin-left:10px; font-weight:bold;}
+.anniu{ background:url(../images/niu.jpg) no-repeat; border:0px; height:28px; width:50px; color:#FFF;}
+.dong_pv{margin-top:10px;}
+.dong_pv p{ font-size:30px; text-align:center;}
+.dong_img{margin-top:10px;}
+#footer{width:100%; text-align:center; border-top:2px solid #3f7208; margin-top:20px;}
+#footer p{font-size:14px; margin-top:10px; color:#666; font-weight:bold; font-family:"微软雅黑";}
+
+
+
+
