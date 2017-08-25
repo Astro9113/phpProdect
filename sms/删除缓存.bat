@@ -1,0 +1,1 @@
+del d:\www\vu\sms\wuliu\cache\* /s /q

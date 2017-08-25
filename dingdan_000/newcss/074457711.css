@@ -1,0 +1,81 @@
+﻿
+#mainListContainer {
+}
+
+    #mainListContainer span.label {
+        background: #c6020e;
+        color: white;
+        font-size: 10px;
+        padding: 2px 2px 1px 2px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: -2px;
+    }
+
+    #mainListContainer section {
+        padding: 10px 0;
+        margin: 0 8px;
+        border-bottom: solid 1px #ebebeb;
+    }
+
+        #mainListContainer section h2 {
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 5px;
+            word-break: break-all;
+            font-weight: normal;
+        }
+
+        #mainListContainer section .single-img-box {
+            float: right;
+            width: 30%;
+        }
+
+            #mainListContainer section .single-img-box img {
+                width: 100%;
+            }
+
+        #mainListContainer section .list-img-holder-large {
+            overflow: hidden;
+            max-height: 250px;
+        }
+
+            #mainListContainer section .list-img-holder-large img {
+                width: 100%;
+            }
+
+        #mainListContainer section .item-info-box {
+            font-size: 12px;
+            margin-top: 8px;
+            color: #999;
+            padding-left: 2px;
+        }
+
+        #mainListContainer section .images-list-box {
+        }
+
+            #mainListContainer section .images-list-box li {
+                float: left;
+                width: 33.3%;
+                overflow: hidden;
+                display: inline-block;
+            }
+
+                #mainListContainer section .images-list-box li .image_container {
+                    width: 98%;
+                    height: 100%;
+                    margin: auto;
+                }
+
+                #mainListContainer section .images-list-box li:first-child .image_container {
+                    float: left;
+                }
+
+                #mainListContainer section .images-list-box li:last-child .image_container {
+                    float: right;
+                }
+
+            #mainListContainer section .images-list-box img {
+                width: 100%;
+                /*height: 100%;*/
+            }

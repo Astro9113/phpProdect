@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+}
+html {
+	margin: 0px; padding: 0px; height: 100%;
+}
+body {
+	margin: 0px; padding: 0px; height: 100%;
+}
+#page {
+	margin: 0px; padding: 0px; height: 100%;
+}
+body {
+	background: rgb(133, 109, 53); margin: 0px; padding: 0px; font-family: Helvetica,Arial,san-serif; font-size: 16px;
+}
+a {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+ol {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+/*用来清除浮动的*/
+.clearfix::after {
+	height: 0px; overflow: hidden; clear: both; display: block; visibility: hidden; content: ".";
+}
+/*清除结尾*/
+.clearfix {
+	display: inline-block;
+}
+.clr {
+	clear: both;
+}
+.hidden {
+	display: none !important;
+}
+* {
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+*::after {
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+*::before {
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+html {
+	-webkit-text-size-adjust: none;
+}
+body {
+	-webkit-text-size-adjust: none;
+}
+header {
+	-webkit-text-size-adjust: none;
+}
+nav {
+	-webkit-text-size-adjust: none;
+}
+footer {
+	-webkit-text-size-adjust: none;
+}
+article {
+	-webkit-text-size-adjust: none;
+}
+section {
+	-webkit-text-size-adjust: none;
+}
+form {
+	-webkit-text-size-adjust: none;
+}
+fieldset {
+	-webkit-text-size-adjust: none;
+}
+p {
+	-webkit-text-size-adjust: none;
+}
+div {
+	-webkit-text-size-adjust: none;
+}
+ul {
+	-webkit-text-size-adjust: none;
+}
+ol {
+	-webkit-text-size-adjust: none;
+}
+li {
+	-webkit-text-size-adjust: none;
+}
+h1 {
+	-webkit-text-size-adjust: none;
+}
+h2 {
+	-webkit-text-size-adjust: none;
+}
+h3 {
+	-webkit-text-size-adjust: none;
+}
+h4 {
+	-webkit-text-size-adjust: none;
+}
+h5 {
+	-webkit-text-size-adjust: none;
+}
+h6 {
+	-webkit-text-size-adjust: none;
+}
+#page {
+	background: rgb(249, 249, 249); margin: 0px auto; padding: 0px 0px 50px; width: 100%; height: auto; position: relative; min-height: 100%; max-width: 768px;
+}
+header {
+	background: rgb(0, 0, 0); margin: 0px auto; padding: 0px; width: 100%; text-align: center; color: rgb(255, 255, 255); line-height: 30px; border-top-color: rgb(51, 51, 51); border-top-width: 1px; border-top-style: solid; position: relative;
+}
+header img {
+	margin: 0px; padding: 0px; height: 40px;
+}
+header h1 {
+	margin: 0px auto; width: 85%; font-size: 1.2em; z-index: 1;
+}
+header h2 {
+	background: rgb(0, 0, 0); width: 15%; font-size: 0.8em; display: inline; z-index: 100;
+}
+header h3 {
+	background: rgb(0, 0, 0); width: 15%; font-size: 0.8em; display: inline; z-index: 100;
+}
+header h2 {
+	left: 0px; top: 0px; position: absolute;
+}
+header h3 {
+	top: 0px; right: 0px; position: absolute;
+}
+header h2 a {
+	padding: 5px 6px; border-radius: 4px; border: 1px solid rgb(102, 102, 102); color: rgb(221, 221, 221);
+}
+header h3 a {
+	padding: 5px 6px; border-radius: 4px; border: 1px solid rgb(102, 102, 102); color: rgb(221, 221, 221);
+}
+
+
+section.buy {
+	background: rgb(68, 54, 28); padding: 5px 0px 15px; width: 100%; height: auto; text-align: center; overflow: hidden; position: relative; text-shadow: none; -webkit-animation: bounceInkeep .3s .2s linear both; -moz-animation: bounceInkeep .3s .2s linear both; -o-animation: bounceInkeep .3s .2s linear both;
+}
+.row1 {
+	margin: 0px auto; padding: 0px; width: 96%; height: auto; clear: both;
+}
+.row2 {
+	margin: 0px auto; padding: 0px; width: 96%; height: auto; clear: both;
+}
+.row2 {
+	padding: 10px 0px; height: 50px; line-height: 30px; overflow: hidden; border-top-color: rgb(82, 69, 36); border-top-width: 1px; border-top-style: dotted;
+}
+.row1 strong {
+	width: 35%; color: rgb(255, 255, 0); line-height: 60px; font-size: 2.0em; float: left; display: block; text-shadow: 1px 1px 0px #000;
+}
+.row1 ol {
+	margin: 0px; padding: 0px; width: 50%; height: inherit; overflow: hidden; float: right;
+}
+.row1 ol li {
+	width: 33%; color: rgb(136, 101, 54); line-height: 30px; float: left;
+}
+.row1 ol li p {
+	color: rgb(154, 155, 116);
+}
+.row2 strong {
+	width: 35%; height: 30px; color: rgb(154, 124, 72); line-height: 30px; font-size: 1.0em; float: left; display: block;
+}
+.row2 .djs {
+	margin: 0px; padding: 0px; width: 65%; height: 30px; color: rgb(221, 221, 153); line-height: 30px; overflow: hidden;
+}
+
+section.buy a.btn {
+	margin: 5px auto; padding: 10px 0px; border-radius: 6px; width: 96%; text-align: center; color: rgb(255, 255, 255); display: block; text-shadow: 1px 1px 1px #333; background-color: rgb(255, 86, 0);
+}
+.time-count {
+	margin: 0px; text-align: center; font-size: 14px;
+}
+.time-count span {
+	padding: 0px 0px 0px 5px; color: rgb(208, 116, 10); font-size: 26px; font-weight: bold;
+}
+article.des {
+	margin: 0px auto; padding: 10px 0px; width: 94%; text-align: left; color: rgb(133, 109, 53); border-top-color: rgb(82, 69, 36); border-top-width: 1px; border-top-style: dotted; text-shadow: 1px 1px 1px #33250c;
+}
+article.showcontent {
+	margin: 0px; padding: 0px; width: 100%; height: auto; overflow: hidden;
+}
+
+
+article.showcontent h2 {
+	background: rgb(238, 233, 230); margin: 0px; padding: 0px 10px; width: 100%; text-align: left; color: rgb(108, 89, 77); line-height: 30px; clear: both; font-size: 18px;
+}
+
+
+.banner h2 {
+	background: rgb(238, 233, 230); margin: 0px; padding: 0px 10px; width: 100%; text-align: left; color: rgb(108, 89, 77); line-height: 30px; clear: both; font-size: 18px;
+}
+article h2 {
+	background: rgb(238, 233, 230); margin: 0px; padding: 0px 10px; width: 100%; text-align: left; color: rgb(108, 89, 77); line-height: 30px; clear: both; font-size: 18px;
+}
+article.showcontent h2::before {
+	color: rgb(148, 129, 87); content: "▼";
+}
+.banner h2::before {
+	color: rgb(148, 129, 87); content: "▼";
+}
+article h2::before {
+	color: rgb(148, 129, 87); content: "▼";
+}
+article.showcontent img {
+	margin: 0px; padding: 0px; border: currentColor; width: auto; text-align: center; max-width: 100%;
+}
+article.showcontent .btn {
+	padding: 10px;
+}
+
+nav {
+	margin: 0px auto; padding: 0px; left: 0px; width: 100%; bottom: 0px; position: fixed; -webkit-animation: fadeInUpBig 1s 0.2s ease both; -moz-animation: fadeInUpBig 1s 0.2s ease both;
+}
+nav ul {
+	background: rgb(238, 51, 0); margin: 0px auto; padding: 0px; width: 100%; height: 45px; overflow: hidden;
+}
+nav ul li {
+	width: 45.3%; text-align: center; float: left;
+}
+nav ul li a {
+	width: 100%; color: rgb(255, 255, 255); line-height: 45px; font-size: 0.8em; display: block;
+}
+nav ul li a strong {
+	left: 0px; top: 10px; font-weight: normal; display: block; position: relative;
+}
+nav ul.Transverse {
+	position: relative;
+}
+nav ul.Transverse li a {
+	border-right-color: rgb(255, 102, 102); border-right-width: 1px; border-right-style: dotted;
+}
+nav ul.Transverse li:last-child a {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+nav ul.Transverse li a strong {
+	line-height: 45px; padding-left: 32px; font-size: 14px; font-weight: normal; display: inline; position: inherit;
+}
+
+nav ul.Transverse li span {
+	color: rgb(51, 51, 51);
+}
+.btn{line-height:30px;}

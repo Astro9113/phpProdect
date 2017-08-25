@@ -1,0 +1,144 @@
+.header {
+	background: #c6020e;
+	width:100%;
+	padding:8px 0 6px 0;
+	text-align: center;
+    margin-bottom: 15px;
+}
+#yyBridge { display: none; }
+#mainListContainer section h2 { font-weight: normal; }
+.tip {
+	margin: 0 8px 15px 8px;
+	border: solid 1px #c6020e;
+	padding: 5px;
+	background: white;
+	text-align: center;
+	font-size: 16px;
+	color: #c6020e;
+	line-height: 25px;
+}
+.tip a {
+	font-size: 14px;
+	font-weight: bold;
+}
+.download-tip {
+	margin-top: 5px;
+	background: #f0f0f0;	
+	position:relative;
+}
+.download-tip p#text_introduce {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.download-tip a#btn_download {
+	text-align: center;	
+	display: block;
+	font-weight: bold;		
+}
+.download-tip a.normal{
+	background:#c6020e;
+	color:white;
+	line-height:30px;
+	margin-top:10px;
+	font-size: 14px;
+}
+.download-tip a.lock{
+	color:#c6020e;
+	font-size: 14px;
+	padding:70px 0 10px 0;
+	background:url(/img/wap/lock.png) no-repeat center top;
+	background-size:auto 55px;
+}
+.download-tip a.downloading{
+	
+	background:url(/img/common/loading2.gif) no-repeat center 33%;
+	background-size:30px;
+}
+.download-tip article#text_content{
+	font-size: 15px;
+	line-height: 22px;
+	color: #464646;
+	word-break: break-word; 
+	overflow: hidden;
+	max-height: 500px;
+	text-align:justify;
+	margin-bottom:10px;
+}
+.download-tip article#text_content p { margin-bottom: 7px; padding:0 0px }
+.download-tip article#text_content img {
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+.download-tip .maskshadow{
+	position:absolute;
+	bottom:103px;
+	left:0;
+	width:100%;
+	height:48px;
+	background:url(/img/wap/maskshadow.png);
+}
+.mask {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	color: white;
+}
+.mask .box-panel {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	width: 280px;
+	margin-left: -155px;
+	background: #fefefe;
+	border-radius: 5px;
+	padding: 30px 16px 18px 16px;
+}
+.mask .box-panel h3 {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 10px;
+}
+.mask .box-panel p {
+	font-size: 12px;
+	line-height: 20px;
+	color: #555;
+	margin-bottom: 23px;
+	text-align: justify;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.mask a.close {
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	font-weight: bold;
+	font-size: 18px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+.mask .box-panel a.d {
+	display: inline-block;
+	padding: 8px 18px;
+	color: white;
+	background: #c6020e;
+	border-radius: 5px;
+	font-size: 12px;
+	margin: auto;
+}
+footer {
+	padding-top: 8px;
+	line-height: 20px;
+	color: #888888;
+	font-size: 12px;
+	margin: 10px 8px;
+	text-align: center;
+}

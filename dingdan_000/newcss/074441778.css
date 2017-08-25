@@ -1,0 +1,75 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul, ol {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+}
+/**通用规则**/
+.box-h20 {
+    height: 20px;
+}
+.box-h30 {
+    height:30px;
+}
+
+.box-h15 {
+    height: 15px;
+}
+
+.box-h10 {
+    height: 10px;
+}
+
+.box-mr5 {
+    margin-right: 5px;
+}
+.box-mr10 {
+    margin-right: 10px;
+}
+
+.box-ml5 {
+    margin-left: 5px;
+}
+.box-ml10 {
+    margin-left: 10px;
+}
+.box-pt5 {
+    padding-top: 5px;
+}
+.clear {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.color-red {
+    color: #c6020e;
+}
+
+.color-white {
+    color: white;
+}
+
+.fontsize-14 {
+    font-size: 14px;
+}
+.fontsize-16 {
+    font-size: 16px;
+}
